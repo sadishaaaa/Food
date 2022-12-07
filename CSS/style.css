@@ -140,11 +140,19 @@ i {
   height: 30px;
   width: 30px;
 }
-.icon {
-  /* border: 1px solid black; */
+.slide-btn button {
   display: flex;
   justify-content: flex-end;
-  cursor: pointer;
+}
+.icon {
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  /* position: absolute;
+  top: 120%;
+  left:80%;
+  cursor: pointer; */
 }
 .icon i {
   text-align: center;
