@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Nunito", sans-serif;
 }
 .main-background {
   background-image: linear-gradient(
@@ -26,8 +28,9 @@
 }
 .nav-right ul li a {
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+
   font-size: 15px;
+  font-weight: bold;
   color: black;
 }
 .nav-right ul li::after {
@@ -60,7 +63,7 @@
   display: inline-block;
   font-size: 20px;
   padding: 20px;
-  font-family: "Roboto", sans-serif;
+
   font-weight: bold;
 }
 .logo h2 {
@@ -69,6 +72,11 @@
 .yell {
   color: orange;
   border: none;
+}
+.yell-1 {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
 }
 .content-title {
   display: flex;
@@ -250,6 +258,9 @@ i {
 .info-desc {
   font-weight: bold;
 }
+.menu {
+  margin: 45px 0px 30px 0px;
+}
 
 .menu-nav-grid {
   display: grid;
@@ -359,6 +370,7 @@ i {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 40px 0px 10px 0px;
 }
 .services {
   display: flex;
@@ -480,7 +492,7 @@ i {
 .div-subscribe {
   height: 350px;
   width: 100%;
-  background-image: url(foodie.avif);
+  background-image: url(./images/foodie.avif);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
